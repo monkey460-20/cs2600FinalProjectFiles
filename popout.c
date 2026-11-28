@@ -33,6 +33,7 @@ int popOut(Board *b, int col){
     return 0;
   }
   b->cells[bottom][col] = EMPTY;
+  applyGravity(b);
   return 1;
 }
 
