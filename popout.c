@@ -49,6 +49,7 @@ void printBoard(const Board *b) {
   printf("\n\n");
 }
 
+#ifdef abilityTest
 int main(void) {
   const char *start[6] = {
     "       ",
@@ -83,3 +84,4 @@ int main(void) {
 
   return 0;
 }
+#endif

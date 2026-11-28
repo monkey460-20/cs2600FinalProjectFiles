@@ -98,6 +98,7 @@ int askDirection(flipDirection *dir) {
   }
 }
 
+#ifdef abilityTest
 int main(void) {
   // Sample 6x7 board, row 0 is the top
   const char *start[6] = {
@@ -132,3 +133,4 @@ int main(void) {
 
   return 0;
 }
+#endif
